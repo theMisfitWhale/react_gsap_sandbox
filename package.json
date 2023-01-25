@@ -2,6 +2,7 @@
   "name": "template",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://theMisfitWhale.github.io/react_gsap_sandbox",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
