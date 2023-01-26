@@ -7,15 +7,23 @@ export default function Home() {
       id: 1,
       name: 'Background Color Transition',
       thumbnail: 'https://i.postimg.cc/jjT86f1T/Color-Transition-Gsap.png',
-      lib: ['Gsap', 'Smooth Scroll', 'Tailwind', 'React'],
+      lib: ['Gsap', 'Smooth-Scroll', 'Tailwind', 'React'],
       url: 'ColorChangeOnScrollGsap',
     },
     {
       id: 2,
       name: 'Infinite Scroll',
       thumbnail: 'https://i.postimg.cc/ydyCXBjQ/Infinite-Scroll.png',
-      lib: ['Js', , 'Tailwind', 'React'],
+      lib: ['Js', 'Tailwind', 'React'],
       url: 'InfiniteScroll',
+    },
+    {
+      id: 3,
+      name: 'Directional Movement Scrolltrigger',
+      thumbnail:
+        'https://i.postimg.cc/28ynwmv9/Scroll-Trigger-Directional-Movement.png',
+      lib: ['gsap', 'scrollTrigger', 'Tailwind', 'React'],
+      url: 'ScrollTriggerDirectionalMovement',
     },
   ];
 
