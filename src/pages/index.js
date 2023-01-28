@@ -25,6 +25,13 @@ export default function Home() {
       lib: ['gsap', 'scrollTrigger', 'Tailwind', 'React'],
       url: 'ScrollTriggerDirectionalMovement',
     },
+    {
+      id: 4,
+      name: 'Alternate Column Scroll',
+      thumbnail: 'https://i.postimg.cc/bdcL1CgP/Alternate-Column-Scroll.png',
+      lib: ['Locomotive-Scroll', 'Tailwind', 'React'],
+      url: 'AlternateColumnScroll',
+    },
   ];
 
   return (
