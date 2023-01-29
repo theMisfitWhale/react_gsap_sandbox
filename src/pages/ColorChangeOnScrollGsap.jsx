@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import Scrollbar from 'smooth-scrollbar';
-
+import Head from 'next/head';
 import { Poppins, Damion } from '@next/font/google';
 
 const poppins = Poppins({
@@ -70,6 +70,9 @@ function ColorChangeOnScrollGsap() {
 
   return (
     <div className="main h-screen w-full flex flex-col  overflow-auto ">
+      <Head>
+        <title>Color Change On Scroll Gsap</title>
+      </Head>
       <section
         className="min-h-screen w-screen relative flex items-center justify-center px-32"
         data-bgcolor="#070707"

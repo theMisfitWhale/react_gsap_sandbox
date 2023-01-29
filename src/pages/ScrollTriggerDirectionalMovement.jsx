@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import Head from 'next/head';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -38,6 +39,9 @@ const ScrollTriggerDirectionalMovement = () => {
 
   return (
     <div className="scroller h-screen overflow-auto text-[12vw] overflow-x-hidden bg-cream ">
+      <Head>
+        <title>ScrollTrigger Directional Movement</title>
+      </Head>
       <section className="h-fit">
         <div className="wrapper flex text-[16vh] font-medium overflow whitespace-nowrap">
           Keep smiling

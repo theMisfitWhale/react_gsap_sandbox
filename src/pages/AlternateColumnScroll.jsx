@@ -4,7 +4,7 @@ import {
   useLocomotiveScroll,
 } from 'react-locomotive-scroll';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
-
+import Head from 'next/head';
 function AlternateColumnScroll() {
   const containerRef = useRef(null);
 
@@ -24,6 +24,9 @@ function AlternateColumnScroll() {
         data-scroll-container
         ref={containerRef}
       >
+        <Head>
+          <title>Alternate Column Scroll</title>
+        </Head>
         <div className="relative z-10 flex pt-[5vh] pb-[15vh] mx-6 h-screen flex-col-reverse ">
           <Column num={1} />
         </div>

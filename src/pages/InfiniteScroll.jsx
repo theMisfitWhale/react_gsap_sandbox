@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Noto_Serif_Display } from '@next/font/google';
-
+import Head from 'next/head';
 const noto = Noto_Serif_Display({
   weight: '400',
   style: ['normal', 'italic'],
@@ -129,6 +129,9 @@ function InfiniteScroll() {
     <div
       className={`${noto.className} bg-greenish no-scrollbar  pr-96  loop  w-screen h-screen relative overflow-auto  flex flex-col items-end text-right select-none `}
     >
+      <Head>
+        <title>Infinity Scroll</title>
+      </Head>
       {menuItem.map((el) => (
         <div
           key={el.id}
